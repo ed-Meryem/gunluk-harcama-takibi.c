@@ -13,7 +13,7 @@ do {
 
     if (scanf("%d", &secim) != 1) {  
         while (getchar() != '\n');  
-        printf("Hatali giris!\n");  
+        printf("Hatali giris\n");  
     } else {  
 
         if (secim == 1) {  
@@ -26,7 +26,7 @@ do {
             ozetGoster();  
         }  
         else if (secim == 4) {  
-            printf("Programdan cikiliyor...\n");  
+            printf("Programdan cikiliyor\n");  
         }  
         else {  
             printf("Hatali secim\n");  
@@ -77,7 +77,7 @@ float tutar;
 f = fopen("harcama.txt", "a");  
 
 if (f == NULL) {  
-    printf("Once yeni gun baslatmalisiniz!\n");  
+    printf("Once yeni gun baslatmalisiniz\n");  
 }  
 else {  
     printf("Kategori: ");  
