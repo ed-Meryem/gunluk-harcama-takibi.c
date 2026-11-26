@@ -111,7 +111,7 @@ else {
 
         if (kelime[0] == 'L') {  
             fscanf(f, "%f", &limit);  
-            toplam = 0;   /* yeni gun */  
+            toplam = 0;   
         }  
         else {  
             fscanf(f, "%f", &tutar);  
