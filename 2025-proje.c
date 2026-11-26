@@ -6,7 +6,7 @@ void harcamaEkle();
 void ozetGoster();
 
 int main() {
-int secim;
+int secim=0;
 
 do {  
     menuYazdir();  
